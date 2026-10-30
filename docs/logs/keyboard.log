@@ -1,0 +1,21 @@
+Nhap n m (vi du: 4 4):
+Nhap canh 1 (u v):
+Nhap canh 2 (u v):
+Nhap canh 3 (u v):
+Nhap canh 4 (u v):
+Nhap s t:
+DT076 - TIM DUONG DI IT CANH NHAT BANG BFS
+n=4; canh=[(1, 2), (1, 3), (2, 4), (3, 4)]; s=1; t=4
+Lang gieng tang dan; cha chi gan khi phat hien lan dau.
+Dinh | Khoang cach d | Dinh cha
+   1 |             0 |        0
+   2 |             1 |        1
+   3 |             1 |        1
+   4 |             2 |        2
+Thu tu BFS: 1 -> 2 -> 3 -> 4
+Duong di: 1 -> 2 -> 4
+So canh: 2
+Kiem tung cap canh: DUNG
+So dinh phat hien: 4
+So muc ke da xet: 8
+So dinh khi truy vet: 3

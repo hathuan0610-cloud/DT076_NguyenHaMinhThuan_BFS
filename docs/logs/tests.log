@@ -1,0 +1,9 @@
+$ julia --version
+julia version 1.13.1
+$ julia --startup-file=no test/runtests.jl
+Test Summary:           | Pass  Total  Time
+DT076 - 12 ca chuc nang |   43     43  0.3s
+Test Summary:                 | Pass  Total  Time
+Du lieu vao va ham kiem duong |   16     16  0.1s
+DA QUA 12 CA CHUC NANG VA CAC KIEM TRA DU LIEU VAO.
+[EXIT CODE: 0]

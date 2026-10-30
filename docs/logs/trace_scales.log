@@ -1,0 +1,22 @@
+$ julia --version
+julia version 1.13.1
+$ julia --startup-file=no scripts/trace_and_scales.jl
+TRACE_T01 | n=4; edges=[(1,2),(1,3),(2,4),(3,4)]; s=1; t=4
+Buoc | u | dau | cuoi | hang_con_cho | d | cha
+0 | - | 1 | 1 | [1] | [0, -1, -1, -1] | [0, 0, 0, 0]
+1 | 1 | 2 | 3 | [2, 3] | [0, 1, 1, -1] | [0, 1, 1, 0]
+2 | 2 | 3 | 4 | [3, 4] | [0, 1, 1, 2] | [0, 1, 1, 2]
+3 | 3 | 4 | 4 | [4] | [0, 1, 1, 2] | [0, 1, 1, 2]
+4 | 4 | 5 | 4 | Int64[] | [0, 1, 1, 2] | [0, 1, 1, 2]
+Doi chieu voi ham chinh: DUNG; truy nguoc 4,2,1; duong=[1, 2, 4]
+SCALE | family | n | m | discovered | adjacency_examined | trace_vertices | distance
+SCALE | chain | 10 | 9 | 10 | 18 | 10 | 9
+SCALE | star | 10 | 9 | 10 | 18 | 2 | 1
+SCALE | complete | 10 | 45 | 10 | 90 | 2 | 1
+SCALE | chain | 30 | 29 | 30 | 58 | 30 | 29
+SCALE | star | 30 | 29 | 30 | 58 | 2 | 1
+SCALE | complete | 30 | 435 | 30 | 870 | 2 | 1
+SCALE | chain | 100 | 99 | 100 | 198 | 100 | 99
+SCALE | star | 100 | 99 | 100 | 198 | 2 | 1
+SCALE | complete | 100 | 4950 | 100 | 9900 | 2 | 1
+[EXIT CODE: 0]

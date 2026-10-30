@@ -1,0 +1,15 @@
+$ git clone <kho_ma_cuc_bo> clone_source_C
+CLONE_LOCAL_OK
+$ git rev-parse HEAD
+af228fa7ea70b19bd801b7493326bfe2e76a3d75
+$ .\Run_all.ps1
+julia version 1.13.1
+Test Summary:           | Pass  Total  Time
+DT076 - 12 ca chuc nang |   43     43  0.3s
+Test Summary:                 | Pass  Total  Time
+Du lieu vao va ham kiem duong |   16     16  0.1s
+DA QUA 12 CA CHUC NANG VA CAC KIEM TRA DU LIEU VAO.
+EXHAUSTIVE_OK graphs=1099 source_target_pairs=26705 n=1..5
+CATALOG_OK functional_cases=12 helper_validator_cases=16 total_cases=28
+END_TO_END_OK: demos, tests, independent oracle, trace and scale counters completed.
+[EXIT CODE: 0]

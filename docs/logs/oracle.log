@@ -1,0 +1,7 @@
+$ julia --version
+julia version 1.13.1
+$ julia --startup-file=no test/verify_exhaustive.jl
+EXHAUSTIVE_OK graphs=1099 source_target_pairs=26705 n=1..5
+ORACLE=Floyd-Warshall; distances, endpoints, real edges, simple path and parent distances checked
+This checks finite graphs up to n=5; mathematical proof covers all valid n.
+[EXIT CODE: 0]

@@ -1,0 +1,17 @@
+$ julia --version
+julia version 1.13.1
+$ julia --startup-file=no demo.jl --ca=4
+DT076 - TIM DUONG DI IT CANH NHAT BANG BFS
+n=4; canh=[(2, 3), (3, 4)]; s=1; t=4
+Lang gieng tang dan; cha chi gan khi phat hien lan dau.
+Dinh | Khoang cach d | Dinh cha
+   1 |             0 |        0
+   2 |            -1 |        0
+   3 |            -1 |        0
+   4 |            -1 |        0
+Thu tu BFS: 1
+KHONG CO DUONG
+So dinh phat hien: 1
+So muc ke da xet: 0
+So dinh khi truy vet: 0
+[EXIT CODE: 0]

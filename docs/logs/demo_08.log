@@ -1,0 +1,10 @@
+$ julia --version
+julia version 1.13.1
+$ julia --startup-file=no demo.jl --ca=8
+DT076 - MINH HOA TU CHOI DU LIEU KHONG HOP LE
+n=3; canh=[(1, 2), (2, 1)]; s=1; t=3
+Mong doi: canh (2, 1) lap lai canh vo huong (1, 2).
+DA TU CHOI DU LIEU: ArgumentError: canh bi lap
+KET QUA MINH HOA: DUNG; loi du kien da duoc bat.
+Ma thoat 0 chi danh cho demo bat loi dung nhu mong doi.
+[EXIT CODE: 0]

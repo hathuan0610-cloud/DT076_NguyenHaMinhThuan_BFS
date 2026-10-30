@@ -1,0 +1,18 @@
+$ git rev-parse HEAD
+af228fa7ea70b19bd801b7493326bfe2e76a3d75
+$ git log -1 --oneline
+af228fa Complete DT076 BFS source tests independent oracle and reproduction scripts
+$ git status --short
+
+WORKTREE_CLEAN
+$ git ls-files
+.gitignore
+README.md
+Run_all.ps1
+demo.jl
+docs/anh_ket_qua/README.md
+scripts/test_catalog.jl
+scripts/trace_and_scales.jl
+src/BFS.jl
+test/runtests.jl
+test/verify_exhaustive.jl
